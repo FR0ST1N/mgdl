@@ -1,4 +1,4 @@
-# MangaPanda-Downloader
+# MangaPanda Downloader
 
 Python script to download manga from [MangaPanda][1].
   - Separate Script for Single(mpsin) and Multiple(mpmul) Chapter Download
