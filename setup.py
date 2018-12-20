@@ -1,8 +1,15 @@
 from setuptools import setup
+from os import path
+
+this_directory = path.abspath(path.dirname(__file__))
+with open(path.join(this_directory, 'README.md'), encoding='utf-8') as f:
+    long_description = f.read()
 
 setup(name='mgdl',
-      version='1.0',
+      version='1.1',
       description='CLI Manga Downloader',
+      long_description=long_description,
+      long_description_content_type='text/markdown',
       keywords='cli anime manga downloader',
       url='https://github.com/FR0ST1N/mgdl',
       author='FR0ST1N',
