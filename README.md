@@ -1,25 +1,25 @@
-# MangaPanda Downloader
+# mgdl
 
-Python script to download manga from [MangaPanda][1].
-  - Separate Script for Single(mpsin) and Multiple(mpmul) Chapter Download
-  - Required Python 2.7.x
-  - Progressbar with PyPrind
-  - Manga Synopsis and Latest Chapters
-  - [CDisplayEx][2] is Recommended for Reading
-  
-## Plugins Used
+![pyversions](https://img.shields.io/pypi/pyversions/mgdl.svg) ![pypi](https://img.shields.io/pypi/v/mgdl.svg) ![license](https://img.shields.io/pypi/l/mgdl.svg)
 
-### BeautifulSoup
+CLI Manga Downloader.
 
-```
-$ pip install BeautifulSoup
-```
+## Install
 
-### PyPrind
+`pip install mgdl`
 
-```
-$ pip install pyprind
-```
+## Usage
 
-  [1]: http://www.mangapanda.com/
-  [2]: http://www.cdisplayex.com/
+`mgdl name start end path`
+
+### Example
+
+`mgdl naruto 10 20 /home/FR0ST1N/Downloads`
+
+## Dependencies
+* [beautifulsoup4](https://pypi.org/project/beautifulsoup4/)
+* [pyprind](https://pypi.org/project/PyPrind/)
+
+## License
+
+ [**MIT**](https://github.com/FR0ST1N/mgdl/blob/master/LICENSE)
